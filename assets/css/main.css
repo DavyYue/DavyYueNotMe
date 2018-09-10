@@ -88,6 +88,26 @@
   .modal li, p {
 	margin: 0 0 10px 0;
   }
+
+  @media screen and (max-width: 800px) {
+
+	.modal-guts {
+		position: absolute;
+		color: black;
+		top: 25%;
+		left: 5%;	
+		right: 5%;
+		width: 95%;
+		height: 80%;
+		overflow: auto;
+		padding: 20px 50px 20px 20px;
+	  }
+
+	  .modal h1 {
+		margin-right: 30px;
+	  }
+
+  }
   .modal h1 {
 	margin: 0 0 20px 0;
   }
