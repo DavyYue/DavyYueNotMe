@@ -14,10 +14,10 @@
 	display: block;
 	
 	/* Probably need media queries here */
-	width: 80%;
+	width: 90%;
 	max-width: 100%;
 	
-	height: 80%;
+	height: 90%;
 	max-height: 100%;
 	
 	position: fixed;
@@ -53,11 +53,11 @@
   .modal-guts {
 	position: absolute;
 	color: black;
-	top: 0;
+	top: 10%;
 	left: 5%;	
 	right: 5%;
-	width: 90%;
-	height: 80%;
+	width: 95%;
+	height: 90%;
 	overflow: auto;
 	padding: 20px 50px 20px 20px;
   }
@@ -101,13 +101,14 @@
 	top: 10px;
 	
 	/* needs to look OK with or without scrollbar */
-	right: 20px;
+	right: 10px;
+	height: 30px;
+	margin-bottom: 10px;
 	
 	border: 0;
 	background: black;
 	color: white;
-	padding: 5px 5px;
-	font-size: 1.3rem;
+	font-size: .9rem;
   }
 
 /* Reset */
